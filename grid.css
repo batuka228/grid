@@ -98,9 +98,12 @@
   text-align: center;
 }
 .grid-8 {
-  background-color: gray;
-  width: 100px;
-  height: 100px;
+  display: flex;
+  overflow: hidden;
+  justify-content: center;
+  background-color: #38d5f4;
+  color: #fff;
+  padding-top: 30px;
 }
 .grid-9 {
   background-color: #103030;
@@ -304,4 +307,20 @@
   line-height: 20px;
   font-weight: 700;
   letter-spacing: 2px;
+}
+.block-8 {
+  width: 240px;
+  height: 240px;
+  padding-right: 34px;
+  padding-left: 34px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: #35cfed;
+  text-align: center;
+}
+.block-8 img {
+  width: 44px;
+  height: 35px;
 }
